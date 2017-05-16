@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F6B62E1EBC660A008031D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B62D1EBC660A008031D0 /* main.swift */; };
+		62F6B6351EBC663A008031D0 /* LTMPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6341EBC663A008031D0 /* LTMPoint.swift */; };
+		62F6B6371EBC66CD008031D0 /* LTMShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6361EBC66CD008031D0 /* LTMShape.swift */; };
+		62F6B6391EBC66F6008031D0 /* LTMLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6381EBC66F6008031D0 /* LTMLine.swift */; };
+		62F6B63B1EBC6A15008031D0 /* LTMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B63A1EBC6A15008031D0 /* LTMColor.swift */; };
+		62F6B63D1EBC6A7B008031D0 /* LTMTypeOfLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B63C1EBC6A7B008031D0 /* LTMTypeOfLine.swift */; };
+		62F6B6521EBC6D16008031D0 /* LTMBluePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6511EBC6D16008031D0 /* LTMBluePrint.swift */; };
+		62F6B65F1EBCA234008031D0 /* LTMFactoryShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B65E1EBCA234008031D0 /* LTMFactoryShape.swift */; };
+		62F6B6611EBCA284008031D0 /* LTMInternalShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6601EBCA284008031D0 /* LTMInternalShape.swift */; };
+		62F6B6631EBCA2C6008031D0 /* LTMConcreteLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6621EBCA2C6008031D0 /* LTMConcreteLine.swift */; };
+		62F6B6641EBCA6B0008031D0 /* LTMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B63A1EBC6A15008031D0 /* LTMColor.swift */; };
+		62F6B6651EBCA6B3008031D0 /* LTMPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6341EBC663A008031D0 /* LTMPoint.swift */; };
+		62F6B6661EBCA6CB008031D0 /* LTMTypeOfLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B63C1EBC6A7B008031D0 /* LTMTypeOfLine.swift */; };
+		62F6B6671EBCAAC4008031D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B62D1EBC660A008031D0 /* main.swift */; };
+		62F6B6681EBCAAC7008031D0 /* LTMBluePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6511EBC6D16008031D0 /* LTMBluePrint.swift */; };
+		62F6B6691EBCAACA008031D0 /* LTMShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B6361EBC66CD008031D0 /* LTMShape.swift */; };
+		62F6B66B1EBCAAEB008031D0 /* LTMLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B66A1EBCAAEB008031D0 /* LTMLine.swift */; };
+		62F6B66D1EBCBF1A008031D0 /* LTMCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B66C1EBCBF1A008031D0 /* LTMCircle.swift */; };
+		62F6B66F1EBCBFD0008031D0 /* LTMCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6B66E1EBCBFD0008031D0 /* LTMCircle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62F6B6281EBC660A008031D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		62F6B6551EBC8759008031D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62F6B62A1EBC660A008031D0 /* LTMFlyWeightTP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LTMFlyWeightTP; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F6B62D1EBC660A008031D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		62F6B6341EBC663A008031D0 /* LTMPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMPoint.swift; sourceTree = "<group>"; };
+		62F6B6361EBC66CD008031D0 /* LTMShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMShape.swift; sourceTree = "<group>"; };
+		62F6B6381EBC66F6008031D0 /* LTMLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMLine.swift; sourceTree = "<group>"; };
+		62F6B63A1EBC6A15008031D0 /* LTMColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMColor.swift; sourceTree = "<group>"; };
+		62F6B63C1EBC6A7B008031D0 /* LTMTypeOfLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMTypeOfLine.swift; sourceTree = "<group>"; };
+		62F6B6511EBC6D16008031D0 /* LTMBluePrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMBluePrint.swift; sourceTree = "<group>"; };
+		62F6B6571EBC8759008031D0 /* LTMFlyWeightCorrection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LTMFlyWeightCorrection; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F6B65E1EBCA234008031D0 /* LTMFactoryShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMFactoryShape.swift; sourceTree = "<group>"; };
+		62F6B6601EBCA284008031D0 /* LTMInternalShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMInternalShape.swift; sourceTree = "<group>"; };
+		62F6B6621EBCA2C6008031D0 /* LTMConcreteLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMConcreteLine.swift; sourceTree = "<group>"; };
+		62F6B66A1EBCAAEB008031D0 /* LTMLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMLine.swift; sourceTree = "<group>"; };
+		62F6B66C1EBCBF1A008031D0 /* LTMCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMCircle.swift; sourceTree = "<group>"; };
+		62F6B66E1EBCBFD0008031D0 /* LTMCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMCircle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F6B6271EBC660A008031D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F6B6541EBC8759008031D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F6B6211EBC660A008031D0 = {
+			isa = PBXGroup;
+			children = (
+				62F6B62C1EBC660A008031D0 /* LTMFlyWeightTP */,
+				62F6B6581EBC8759008031D0 /* LTMFlyWeightCorrection */,
+				62F6B62B1EBC660A008031D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F6B62B1EBC660A008031D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F6B62A1EBC660A008031D0 /* LTMFlyWeightTP */,
+				62F6B6571EBC8759008031D0 /* LTMFlyWeightCorrection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F6B62C1EBC660A008031D0 /* LTMFlyWeightTP */ = {
+			isa = PBXGroup;
+			children = (
+				62F6B62D1EBC660A008031D0 /* main.swift */,
+				62F6B6511EBC6D16008031D0 /* LTMBluePrint.swift */,
+				62F6B6341EBC663A008031D0 /* LTMPoint.swift */,
+				62F6B6361EBC66CD008031D0 /* LTMShape.swift */,
+				62F6B6381EBC66F6008031D0 /* LTMLine.swift */,
+				62F6B63A1EBC6A15008031D0 /* LTMColor.swift */,
+				62F6B63C1EBC6A7B008031D0 /* LTMTypeOfLine.swift */,
+				62F6B66C1EBCBF1A008031D0 /* LTMCircle.swift */,
+			);
+			path = LTMFlyWeightTP;
+			sourceTree = "<group>";
+		};
+		62F6B6581EBC8759008031D0 /* LTMFlyWeightCorrection */ = {
+			isa = PBXGroup;
+			children = (
+				62F6B65E1EBCA234008031D0 /* LTMFactoryShape.swift */,
+				62F6B6601EBCA284008031D0 /* LTMInternalShape.swift */,
+				62F6B6621EBCA2C6008031D0 /* LTMConcreteLine.swift */,
+				62F6B66A1EBCAAEB008031D0 /* LTMLine.swift */,
+				62F6B66E1EBCBFD0008031D0 /* LTMCircle.swift */,
+			);
+			path = LTMFlyWeightCorrection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F6B6291EBC660A008031D0 /* LTMFlyWeightTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F6B6311EBC660A008031D0 /* Build configuration list for PBXNativeTarget "LTMFlyWeightTP" */;
+			buildPhases = (
+				62F6B6261EBC660A008031D0 /* Sources */,
+				62F6B6271EBC660A008031D0 /* Frameworks */,
+				62F6B6281EBC660A008031D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMFlyWeightTP;
+			productName = LTMFlyWeightTP;
+			productReference = 62F6B62A1EBC660A008031D0 /* LTMFlyWeightTP */;
+			productType = "com.apple.product-type.tool";
+		};
+		62F6B6561EBC8759008031D0 /* LTMFlyWeightCorrection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F6B65B1EBC8759008031D0 /* Build configuration list for PBXNativeTarget "LTMFlyWeightCorrection" */;
+			buildPhases = (
+				62F6B6531EBC8759008031D0 /* Sources */,
+				62F6B6541EBC8759008031D0 /* Frameworks */,
+				62F6B6551EBC8759008031D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMFlyWeightCorrection;
+			productName = LTMFlyWeightCorrection;
+			productReference = 62F6B6571EBC8759008031D0 /* LTMFlyWeightCorrection */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F6B6221EBC660A008031D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LTM;
+				TargetAttributes = {
+					62F6B6291EBC660A008031D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2BSP2EH399;
+						ProvisioningStyle = Automatic;
+					};
+					62F6B6561EBC8759008031D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2BSP2EH399;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62F6B6251EBC660A008031D0 /* Build configuration list for PBXProject "LTMFlyWeightTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62F6B6211EBC660A008031D0;
+			productRefGroup = 62F6B62B1EBC660A008031D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F6B6291EBC660A008031D0 /* LTMFlyWeightTP */,
+				62F6B6561EBC8759008031D0 /* LTMFlyWeightCorrection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F6B6261EBC660A008031D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F6B6351EBC663A008031D0 /* LTMPoint.swift in Sources */,
+				62F6B66D1EBCBF1A008031D0 /* LTMCircle.swift in Sources */,
+				62F6B63B1EBC6A15008031D0 /* LTMColor.swift in Sources */,
+				62F6B63D1EBC6A7B008031D0 /* LTMTypeOfLine.swift in Sources */,
+				62F6B6391EBC66F6008031D0 /* LTMLine.swift in Sources */,
+				62F6B6521EBC6D16008031D0 /* LTMBluePrint.swift in Sources */,
+				62F6B6371EBC66CD008031D0 /* LTMShape.swift in Sources */,
+				62F6B62E1EBC660A008031D0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F6B6531EBC8759008031D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F6B66F1EBCBFD0008031D0 /* LTMCircle.swift in Sources */,
+				62F6B6631EBCA2C6008031D0 /* LTMConcreteLine.swift in Sources */,
+				62F6B6681EBCAAC7008031D0 /* LTMBluePrint.swift in Sources */,
+				62F6B6691EBCAACA008031D0 /* LTMShape.swift in Sources */,
+				62F6B6671EBCAAC4008031D0 /* main.swift in Sources */,
+				62F6B6611EBCA284008031D0 /* LTMInternalShape.swift in Sources */,
+				62F6B6661EBCA6CB008031D0 /* LTMTypeOfLine.swift in Sources */,
+				62F6B6651EBCA6B3008031D0 /* LTMPoint.swift in Sources */,
+				62F6B66B1EBCAAEB008031D0 /* LTMLine.swift in Sources */,
+				62F6B65F1EBCA234008031D0 /* LTMFactoryShape.swift in Sources */,
+				62F6B6641EBCA6B0008031D0 /* LTMColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62F6B62F1EBC660A008031D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62F6B6301EBC660A008031D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		62F6B6321EBC660A008031D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BSP2EH399;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62F6B6331EBC660A008031D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BSP2EH399;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		62F6B65C1EBC8759008031D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BSP2EH399;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62F6B65D1EBC8759008031D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BSP2EH399;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F6B6251EBC660A008031D0 /* Build configuration list for PBXProject "LTMFlyWeightTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F6B62F1EBC660A008031D0 /* Debug */,
+				62F6B6301EBC660A008031D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F6B6311EBC660A008031D0 /* Build configuration list for PBXNativeTarget "LTMFlyWeightTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F6B6321EBC660A008031D0 /* Debug */,
+				62F6B6331EBC660A008031D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F6B65B1EBC8759008031D0 /* Build configuration list for PBXNativeTarget "LTMFlyWeightCorrection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F6B65C1EBC8759008031D0 /* Debug */,
+				62F6B65D1EBC8759008031D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F6B6221EBC660A008031D0 /* Project object */;
+}
