@@ -12,4 +12,5 @@ enum LTMColor {
     case green
     case blue
     case yellow
+    case brown
 }
